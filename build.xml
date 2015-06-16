@@ -205,7 +205,7 @@
                 DocTitle="${javadoc.doctitle.app}"
                 Overview="${dir.src.server-java.app}/nextapp/echo/app/overview.html"
                 Header="${javadoc.header}"
-                failonerror="true"/>
+                failonerror="false"/>
         <record name="${dir.build}/javadoc.log" action="stop"/>
     </target>
 
